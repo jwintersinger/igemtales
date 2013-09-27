@@ -146,10 +146,12 @@ function configure_click(container) {
   });
 }
 
-$(document).ready(function() {
+function init_tale_image() {
   preload_images();
 
   var container = $('#tales-img');
   configure_mousemove(container);
   configure_click(container);
-});
+}
+
+init_tale_image();
