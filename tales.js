@@ -130,7 +130,7 @@ function configure_click(container) {
   container.click(function(evt) {
     evt.preventDefault();
 
-    var cursor_pos = get_rel_cursor_pos(this, event);
+    var cursor_pos = get_rel_cursor_pos(this, evt);
     var target = find_target(cursor_pos.rel_x, cursor_pos.rel_y);
     if(target === null) {
       return;
