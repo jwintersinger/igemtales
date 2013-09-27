@@ -149,7 +149,7 @@ function configure_click(container) {
 $(document).ready(function() {
   preload_images();
 
-  var container = $('#tales');
+  var container = $('#tales-img');
   configure_mousemove(container);
   configure_click(container);
 });
