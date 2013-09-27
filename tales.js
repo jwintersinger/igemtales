@@ -4,7 +4,8 @@ var elements = {
       { tl_x: 212, tl_y: 128, w: 266, h: 40 }
     ],
     link_url: 'http://2013.igem.org/Team:Calgary/Project/OurSensor/Detector',
-    image_url: 'img/detector.png',
+    //image_url: 'img/detector.png'
+    image_url: 'http://2013.igem.org/wiki/images/a/ad/Detector.png'
    },
 
   linker: {
@@ -13,7 +14,9 @@ var elements = {
       { tl_x: 356, tl_y: 164, w: 79, h: 128 },
     ],
     link_url: 'http://2013.igem.org/Team:Calgary/Project/OurSensor/Linker',
-    image_url: 'img/linker.png',
+    //image_url: 'img/linker.png'
+    image_url: 'http://2013.igem.org/wiki/images/3/3f/Linker.png'
+
   },
 
   modelling: {
@@ -21,7 +24,8 @@ var elements = {
       { tl_x: 0, tl_y: 266, w: 210, h: 163 }
     ],
     link_url: 'http://2013.igem.org/Team:Calgary/Project/OurSensor/Modeling',
-    image_url: 'img/modelling.png',
+    //image_url: 'img/modelling.png'
+    image_url: 'http://2013.igem.org/wiki/images/6/6b/Modelling.png'
   },
 
   prototype: {
@@ -29,7 +33,8 @@ var elements = {
       { tl_x: 453, tl_y: 296, w: 243, h: 96 }
     ],
     link_url: 'http://2013.igem.org/Team:Calgary/Project/OurSensor/Prototype',
-    image_url: 'img/prototype.png',
+    //image_url: 'img/prototype.png'
+    image_url: 'http://2013.igem.org/wiki/images/3/31/Prototype.png'
   },
 
   reporter: {
@@ -37,7 +42,8 @@ var elements = {
       { tl_x: 252, tl_y: 1, w: 66, h: 63 }
     ],
     link_url: 'http://2013.igem.org/Team:Calgary/Project/OurSensor/Reporter',
-    image_url: 'img/reporter.png',
+    //image_url: 'img/reporter.png'
+    image_url: 'http://2013.igem.org/wiki/images/d/dd/Reporter.png'
   },
 };
 
@@ -141,8 +147,9 @@ function configure_click(container) {
 }
 
 $(document).ready(function() {
-  var container = $('#tales');
   preload_images();
+
+  var container = $('#tales');
   configure_mousemove(container);
   configure_click(container);
 });
